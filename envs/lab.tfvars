@@ -304,6 +304,6 @@ dnsrecords = {
     hostname  = "dummy.int"
     zone      = "sentania.net."
     ttl       = 3600
-    addresses = ["192.168.15.5]
+    addresses = ["192.168.15.5"]
   }
 }
