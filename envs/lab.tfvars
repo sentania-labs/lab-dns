@@ -300,10 +300,4 @@ dnsrecords = {
       "kms.int"
     ]
   }
-  dummy = {
-    hostname  = "dummy.int"
-    zone      = "sentania.net."
-    ttl       = 3600
-    addresses = ["192.168.15.5"]
-  }
 }
