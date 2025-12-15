@@ -1,4 +1,4 @@
-name: Deploy workloads
+name: Manage DNS Records
 on:
   push:
     branches:
