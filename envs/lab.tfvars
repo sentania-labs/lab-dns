@@ -26,7 +26,6 @@ dnsrecords = {
       "ntp1.int"
     ]
   }
-
   dcint2 = {
     hostname  = "dcint2.int"
     zone      = "sentania.net."
@@ -36,7 +35,6 @@ dnsrecords = {
       "ntp2.int"
     ]
   }
-
   esx1 = {
     hostname  = "esx1.int"
     zone      = "sentania.net."
@@ -74,7 +72,6 @@ dnsrecords = {
       "unifi.int"
     ]
   }
-
   vcf-lab-automation = {
     hostname  = "vcf-lab-automation.int"
     zone      = "sentania.net."
