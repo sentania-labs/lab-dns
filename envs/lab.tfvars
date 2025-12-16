@@ -250,13 +250,6 @@ dnsrecords = {
     addresses = ["172.27.1.44"]
   }
 
-  vcf-lab-sddcmgr = {
-    hostname  = "vcf-lab-sddcmgr.int"
-    zone      = "sentania.net."
-    ttl       = 3600
-    addresses = ["172.30.8.51"]
-  }
-
   vcfa-ip1 = {
     hostname  = "vcfa-ip1.int"
     zone      = "sentania.net."
