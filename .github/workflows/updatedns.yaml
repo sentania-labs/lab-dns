@@ -16,9 +16,10 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_REGION: ${{ secrets.AWS_REGION }}
-      TF_VAR_serviceAccountUserName: ${{ secrets.VCF_SERVICE_USER }}
+      TF_VAR_serviceAccountUserName: ${{ secrets.KRB_SERVICE_USER }}
       TF_VAR_serviceAccountPassword: ${{ secrets.VCF_SERVICE_PASSWORD }}
       TF_VAR_krb_realm: ${{ secrets.KRB_REALM }}
+      KRB5_CONFIG: ${{ secrets.KRB5_CONF}}
       TF_VAR_dns_server: ${{ secrets.DNS_SERVER }}
       
       TF_IN_AUTOMATION: "true"
