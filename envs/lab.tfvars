@@ -8,15 +8,8 @@ dnsrecords = {
     ],
     zone     = "int.sentania.net."
     hostname = "storage"
-
   }
-  vcf-lab-sddcmgr = {
-    addresses = [
-      "172.27.8.11"
-    ],
-    zone     = "int.sentania.net."
-    hostname = "vcf-lab-sddcmgr"
-  }
+  #Personal Stuff
   dcint1 = {
     hostname  = "dcint1"
     zone      = "int.sentania.net."
@@ -35,34 +28,51 @@ dnsrecords = {
       "ntp2"
     ]
   }
-  esx1 = {
-    hostname  = "esx1"
+  worker = {
+    hostname  = "worker"
     zone      = "int.sentania.net."
     ttl       = 3600
-    addresses = ["172.27.1.21"]
+    addresses = ["172.16.3.13"]
+    cnames = [
+      "kms"
+    ]
   }
-
   pihole = {
     hostname  = "pihole"
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.16.3.98"]
   }
-
+  ca = {
+    hostname  = "ca"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.8.201"]
+  }
+  caroot = {
+    hostname  = "caroot"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.8.200"]
+  }
+  automic = {
+    hostname  = "automic"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.8.202"]
+  }
   registry = {
     hostname  = "registry"
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.16.3.97"]
   }
-
   satisfactory = {
     hostname  = "satisfactory"
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.16.3.99"]
   }
-
   udm = {
     hostname  = "udm"
     zone      = "int.sentania.net."
@@ -71,6 +81,47 @@ dnsrecords = {
     cnames = [
       "unifi"
     ]
+  }
+  #VCF LABs
+  esx1 = {
+    hostname  = "esx1"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.21"]
+  }
+
+  vcf-lab-wld01-esx01 = {
+    hostname  = "vcf-lab-wld01-esx01"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.41"]
+  }
+
+  vcf-lab-wld01-esx02 = {
+    hostname  = "vcf-lab-wld01-esx02"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.42"]
+  }
+  vcf-lab-wld02-esx01 = {
+    hostname  = "vcf-lab-wld02-esx01"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.43"]
+  }
+
+  vcf-lab-wld02-esx02 = {
+    hostname  = "vcf-lab-wld02-esx02"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.44"]
+  }
+  vcf-lab-sddcmgr = {
+    addresses = [
+      "172.27.8.11"
+    ],
+    zone     = "int.sentania.net."
+    hostname = "vcf-lab-sddcmgr"
   }
   vcf-lab-automation = {
     hostname  = "vcf-lab-automation"
@@ -205,19 +256,6 @@ dnsrecords = {
     addresses = ["172.27.8.212"]
   }
 
-  vcf-lab-wld01-esx01 = {
-    hostname  = "vcf-lab-wld01-esx01"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.27.1.41"]
-  }
-
-  vcf-lab-wld01-esx02 = {
-    hostname  = "vcf-lab-wld01-esx02"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.27.1.42"]
-  }
 
   vcf-lab-wld02-en01 = {
     hostname  = "vcf-lab-wld02-en01"
@@ -232,21 +270,6 @@ dnsrecords = {
     ttl       = 3600
     addresses = ["172.27.8.215"]
   }
-
-  vcf-lab-wld02-esx01 = {
-    hostname  = "vcf-lab-wld02-esx01"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.27.1.43"]
-  }
-
-  vcf-lab-wld02-esx02 = {
-    hostname  = "vcf-lab-wld02-esx02"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.27.1.44"]
-  }
-
   vcfa-ip1 = {
     hostname  = "vcfa-ip1"
     zone      = "int.sentania.net."
@@ -280,14 +303,5 @@ dnsrecords = {
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.17.0.9"]
-  }
-  worker = {
-    hostname  = "worker"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.16.3.13"]
-    cnames = [
-      "kms"
-    ]
   }
 }
