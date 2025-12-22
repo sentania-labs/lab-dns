@@ -358,10 +358,4 @@ dnsrecords = {
     ttl       = 3600
     addresses = ["172.17.0.9"]
   }
-    wld01-cl02-supervisor1 = {
-    hostname  = "wld01-cl02-supervisor1"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.17.0.19"]
-  }
 }
