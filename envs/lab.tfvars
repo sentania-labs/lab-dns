@@ -10,24 +10,6 @@ dnsrecords = {
     hostname = "storage"
   }
   #Personal Stuff
-  dcint1 = {
-    hostname  = "dcint1"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.27.8.8"]
-    cnames = [
-      "ntp1"
-    ]
-  }
-  dcint2 = {
-    hostname  = "dcint2"
-    zone      = "int.sentania.net."
-    ttl       = 3600
-    addresses = ["172.27.8.9"]
-    cnames = [
-      "ntp2"
-    ]
-  }
   worker = {
     hostname  = "worker"
     zone      = "int.sentania.net."
