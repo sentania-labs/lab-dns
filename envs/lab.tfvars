@@ -125,6 +125,7 @@ dnsrecords = {
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.27.1.48"]
+  }
   vcf-lab-wld01-esx07 = {
     hostname  = "vcf-lab-wld01-esx07"
     zone      = "int.sentania.net."
