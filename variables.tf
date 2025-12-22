@@ -10,18 +10,22 @@ variable "dnsrecords" {
 
 
 variable "dns_server" {
-  type = string
+  type        = string
+  description = "DNS server to publish records to"
 }
 
 variable "krb_realm" {
-  type = string
+  type        = string
+  description = "Kerberos Realm to authenticate against"
 }
 
 variable "serviceAccountUserName" {
-  type = string
+  type        = string
+  description = "KRB username"
 }
 
 variable "serviceAccountPassword" {
-  type      = string
-  sensitive = true
+  type        = string
+  sensitive   = true
+  description = "Password"
 }

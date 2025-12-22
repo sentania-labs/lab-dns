@@ -89,19 +89,54 @@ dnsrecords = {
     ttl       = 3600
     addresses = ["172.27.1.21"]
   }
-
   vcf-lab-wld01-esx01 = {
     hostname  = "vcf-lab-wld01-esx01"
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.27.1.41"]
   }
-
   vcf-lab-wld01-esx02 = {
     hostname  = "vcf-lab-wld01-esx02"
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.27.1.42"]
+  }
+  vcf-lab-wld01-esx03 = {
+    hostname  = "vcf-lab-wld01-esx03"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.44"]
+  }
+
+  vcf-lab-wld01-esx04 = {
+    hostname  = "vcf-lab-wld01-esx05"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.45"]
+  }
+  vcf-lab-wld01-esx05 = {
+    hostname  = "vcf-lab-wld01-esx05"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.46"]
+  }
+  vcf-lab-wld01-esx06 = {
+    hostname  = "vcf-lab-wld01-esx06"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.47"]
+  }
+  vcf-lab-wld01-esx07 = {
+    hostname  = "vcf-lab-wld01-esx07"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.48"]
+  }
+  vcf-lab-wld01-esx08 = {
+    hostname  = "vcf-lab-wld01-esx08"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.48"]
   }
   vcf-lab-wld02-esx01 = {
     hostname  = "vcf-lab-wld02-esx01"
@@ -116,6 +151,45 @@ dnsrecords = {
     ttl       = 3600
     addresses = ["172.27.1.44"]
   }
+
+
+  vcf-lab-wld02-esx03 = {
+    hostname  = "vcf-lab-wld02-esx03"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.49"]
+  }
+  vcf-lab-wld02-esx04 = {
+    hostname  = "vcf-lab-wld02-esx05"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.50"]
+  }
+  vcf-lab-wld02-esx05 = {
+    hostname  = "vcf-lab-wld02-esx05"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.51"]
+  }
+  vcf-lab-wld02-esx06 = {
+    hostname  = "vcf-lab-wld02-esx06"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.52"]
+  }
+  vcf-lab-wld02-esx07 = {
+    hostname  = "vcf-lab-wld02-esx07"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.53"]
+  }
+  vcf-lab-wld02-esx08 = {
+    hostname  = "vcf-lab-wld02-esx08"
+    zone      = "int.sentania.net."
+    ttl       = 3600
+    addresses = ["172.27.1.54"]
+  }
+  #VCF Stack
   vcf-lab-sddcmgr = {
     addresses = [
       "172.27.8.11"
