@@ -91,7 +91,7 @@ dnsrecords = {
   }
 
   vcf-lab-wld01-esx04 = {
-    hostname  = "vcf-lab-wld01-esx05"
+    hostname  = "vcf-lab-wld01-esx04"
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.27.1.46"]
@@ -140,7 +140,7 @@ dnsrecords = {
     addresses = ["172.27.1.51"]
   }
   vcf-lab-wld02-esx04 = {
-    hostname  = "vcf-lab-wld02-esx05"
+    hostname  = "vcf-lab-wld02-esx04"
     zone      = "int.sentania.net."
     ttl       = 3600
     addresses = ["172.27.1.52"]
