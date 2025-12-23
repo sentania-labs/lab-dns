@@ -191,14 +191,14 @@ dnsrecords = {
   }
 
   vcf-lab-nsxmgr-mgmt01 = {
-    hostname  = "vcf-lab-nsxmgr-mgmt01"
+    hostname  = "vcf-lab-nsxmgr-mgmt"
     zone      = "int.sentania.net."
     ttl       = 1800
     addresses = ["172.27.8.20"]
   }
 
   vcf-lab-nsxmgr-mgmt01a = {
-    hostname  = "vcf-lab-nsxmgr-mgmt01a"
+    hostname  = "vcf-lab-nsxmgr-mgmt01"
     zone      = "int.sentania.net."
     ttl       = 1800
     addresses = ["172.27.8.21"]
